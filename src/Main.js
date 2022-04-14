@@ -1,11 +1,11 @@
 import React from 'react';
 import Hornedbeast from './Hornedbeast.js';
-import data from './data.json';
+
 class Main extends React.Component {
   render(){
     let beast = [];
-    data.forEach((animal, idx) => {
-      beast.push(
+    this.props.data.map((animal, idx) => {
+      return beast.push(
         <Hornedbeast
         title = {animal.title}
         image_url = {animal.image_url}
