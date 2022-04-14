@@ -29,7 +29,7 @@ class Hornedbeast extends React.Component {
                 </Card.Body>
 
 <p>{this.props.description}</p>
-<p>{this.state.likes}Like this? Click here!❤️</p> */}
+<p>{this.state.likes}Like this? Click here!❤️</p>
             </Card>
             // help from Raul
 
