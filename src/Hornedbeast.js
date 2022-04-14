@@ -30,6 +30,7 @@ class Hornedbeast extends React.Component {
 
 <p>{this.props.description}</p>
 <p>{this.state.likes}Like this? Click here!❤️</p>
+
             </Card>
             // help from Raul
 
@@ -37,4 +38,3 @@ class Hornedbeast extends React.Component {
     }
 }
 export default Hornedbeast;
-
