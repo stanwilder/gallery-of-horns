@@ -3,9 +3,9 @@ class Header extends React.Component{
 render(){
  return(
 
-<header className="App-header">
-        <h1>Gallery of Horns</h1>
-      </header>
+<header>
+<h1>Gallery of Horns</h1>
+</header>
    ) 
 }
 }
