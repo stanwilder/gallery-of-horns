@@ -5,7 +5,7 @@ import Header from './Header.js';
 import Footer from './Footer.js';
 import data from './data.json';
 import SelectedBeast from './SelectedBeast.js';
-import Forms from './Forms.js':
+import Forms from './Forms.js';
 // import { Modal } from 'react-bootstrap';
 
 
