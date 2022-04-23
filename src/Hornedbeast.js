@@ -1,6 +1,5 @@
-import {Button} from 'react-bootstrap';
+import {Button, Card} from 'react-bootstrap';
 import React from 'react';
-import {Card} from 'react-bootstrap';
 import './Hornedbeast.css';
 
 class Hornedbeast extends React.Component {
@@ -34,13 +33,13 @@ class Hornedbeast extends React.Component {
                         {this.props.title}
                     </Card.Title>
                     <Card.Text>
-                        <p>{this.state.likes}Like this? Click here!❤️</p>
+                    {this.state.likes}Like this? Click here!❤️
                     </Card.Text>
                     <Card.Text>
-                        <p>{this.props.description}</p>
+                        {this.props.description}
                     </Card.Text>
                     <Button
-                    onClick= {this.handleLikes}>
+                    onClick={this.handleLikes}>
                         Click ME
                     </Button>
                 </Card.Body>

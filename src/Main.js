@@ -13,7 +13,7 @@ class Main extends React.Component {
       <main>
         {this.props.data.map((animal, idx) => {
           return (
-            <>
+            
 
               <Hornedbeast
                 title={animal.title}
@@ -22,11 +22,6 @@ class Main extends React.Component {
                 description={animal.description}
                 openModal={this.props.openModal}
               />
-              {/* <Forms */}
-                {/* Data={this.state.filteredData} */}
-
-              {/* /> */}
-            </>
           )
         }
         )
