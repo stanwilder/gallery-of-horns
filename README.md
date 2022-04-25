@@ -6,4 +6,4 @@
 
 - Finish time: 6:15 pm
 
-- Actual time needed to complete: 8hrs 32 mins
+- Actual time needed to complete: 2 hours 15 minutes
