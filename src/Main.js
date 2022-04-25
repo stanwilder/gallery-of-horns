@@ -11,14 +11,14 @@ class Main extends React.Component {
   render() {
     return (
       <main>
-        {this.props.data.map((animal, idx) => {
+        {this.props.filteredData.map((animal, idx) => {
           return (
-            <>
+            <div key={idx}>
+              
 
               <Hornedbeast
                 title={animal.title}
                 image_url={animal.image_url}
-                key={idx}
                 description={animal.description}
                 openModal={this.props.openModal}
               />
@@ -26,7 +26,7 @@ class Main extends React.Component {
                 {/* Data={this.state.filteredData} */}
 
               {/* /> */}
-            </>
+            </div>
           )
         }
         )
